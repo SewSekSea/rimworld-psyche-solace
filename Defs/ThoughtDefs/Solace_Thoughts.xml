@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Given to the person who was comforted, about the person who did it. -->
+  <ThoughtDef>
+    <defName>SL_Comforted</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <showBubble>true</showBubble>
+    <durationDays>20</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>5</stackLimitForSameOtherPawn>
+    <stackedEffectMultiplier>0.85</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>sat with me</label>
+        <baseOpinionOffset>14</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- The mood lift itself. Scaled in code by how good the comforter actually was. -->
+  <ThoughtDef>
+    <defName>SL_ComfortedMood</defName>
+    <thoughtClass>Solace.Thought_Comforted</thoughtClass>
+    <durationDays>5</durationDays>
+    <stackLimit>4</stackLimit>
+    <stackedEffectMultiplier>0.7</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>someone sat with me</label>
+        <description>I did not have to say much. They stayed until I was steadier, and did not make it about themselves.</description>
+        <baseMoodEffect>9</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- The price of doing the comforting. -->
+  <ThoughtDef>
+    <defName>SL_CarriedThem</defName>
+    <durationDays>2</durationDays>
+    <stackLimit>4</stackLimit>
+    <stackedEffectMultiplier>1.1</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>carried someone else today</label>
+        <description>They needed someone and I was there. I do not regret it. It did take something out of me.</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Comfort from someone who feels nothing. It lands, and it heals nothing underneath. -->
+  <ThoughtDef>
+    <defName>SL_HollowComfort</defName>
+    <durationDays>3</durationDays>
+    <stackLimit>3</stackLimit>
+    <stackedEffectMultiplier>0.6</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>someone said the right things</label>
+        <description>Every word of it was correct. I felt better for an hour. I could not tell you why it did not last.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

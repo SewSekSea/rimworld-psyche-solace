@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!--
+    Earned resilience. Applied once a colonist has been looked after enough times, and it
+    wears off if the colony stops doing it. Visible in the health tab so the player can see
+    who is currently being held up by the people around them.
+  -->
+  <HediffDef>
+    <defName>SL_Steadied</defName>
+    <label>steadied</label>
+    <description>People here have sat with this person when it mattered, more than once. They are harder to knock over than they were. It will not last on its own.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <initialSeverity>1.0</initialSeverity>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>
+          <min>600000</min>
+          <max>600000</max>
+        </disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MentalBreakThreshold>-0.04</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+</Defs>

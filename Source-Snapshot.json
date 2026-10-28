@@ -1,0 +1,76 @@
+{
+  "name": "Solace",
+  "packageId": "solace.comfort",
+  "assemblyName": "Solace",
+  "repositoryName": "rimworld-psyche-solace",
+  "workshopId": "3805116760",
+  "metadataVersions": [
+    "1.6",
+    "1.7"
+  ],
+  "originalSourceUnit": "Psyche Mods/Solace",
+  "sourceSnapshotUtc": "2026-10-28T17:10:16.038Z",
+  "sourceFileFingerprints": [
+    {
+      "path": "About/About.xml",
+      "sha256": "73DDF7923B4446041D26A0B0F369692B2A0EC421F2BE9A69741874E206F2AADE",
+      "bytes": 2279
+    },
+    {
+      "path": "About/Preview.png",
+      "sha256": "BF060DAC245E7782E6B51B810ADA5791F17E41E8490D43F9211A8DEF650BE879",
+      "bytes": 100388
+    },
+    {
+      "path": "About/PublishedFileId.txt",
+      "sha256": "12C49B0BAF9DA7D7B30192E9A788E6F2862100672BCECF52B6828029872B9804",
+      "bytes": 10
+    },
+    {
+      "path": "Defs/HediffDefs/Solace_Hediffs.xml",
+      "sha256": "E8C806E72023DD76768265731DF572F0A71F66EA91352750ED51B49914ED1B7F",
+      "bytes": 1240
+    },
+    {
+      "path": "Defs/InteractionDefs/Solace_Interactions.xml",
+      "sha256": "21DEF690DEFF9AB0C75C833514012E1310AAAF6ADDC00C17F3E2D7D9A7FFECF5",
+      "bytes": 1214
+    },
+    {
+      "path": "Defs/ThoughtDefs/Solace_Thoughts.xml",
+      "sha256": "013217CAF6EAB281EF66ED8A703F5BCDC27A91F9459C71F8AD2F0AB515150FA7",
+      "bytes": 2312
+    },
+    {
+      "path": "Source/Solace/Comfort.cs",
+      "sha256": "E505AAC9297B3C5851FBC817B13454B2C835103A6FDC7922969DEBFA5D2AD798",
+      "bytes": 4329
+    },
+    {
+      "path": "Source/Solace/Settings.cs",
+      "sha256": "D31C006EFCDE0DC4863A880C2FD113CC5CDF869412D2ED8ADB09ECDB80FEEE15",
+      "bytes": 3476
+    },
+    {
+      "path": "Source/Solace/Solace.csproj",
+      "sha256": "E0FC8C53A0B1C8DBC3BBCB18DC74A10989BF149B2424578254C58E9E2E2ABE36",
+      "bytes": 1627
+    },
+    {
+      "path": "Source/Solace/SolaceCore.cs",
+      "sha256": "EBB6DC57BB00AA8DD2E22D444327637892922548B47FDD334995BE57DC80445C",
+      "bytes": 6904
+    },
+    {
+      "path": "Source/Solace/Workers.cs",
+      "sha256": "39D988F0BE55AAABA5FF16906A3CEEB7E585449063DD3FB0F795DB325943A880",
+      "bytes": 3481
+    }
+  ],
+  "stagedProjectAdjustments": [],
+  "build16": "NOT_RUN_THIS_PASS",
+  "build17": "COMPILED_AGAINST_LOCAL_1.7_API",
+  "nativePlaytest": "NOT_RUN_THIS_PUBLICATION_PASS",
+  "gameplaySourceModified": false,
+  "compiled17SHA256": "BD00C0481370DD14B1CDBC05D65ECE71299F40479BE90EE950A73050DCCBF252"
+}

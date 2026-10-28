@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!--
+    Sitting with someone who is struggling. Only fires when the recipient is genuinely near
+    their breaking point and the initiator actually thinks well of them, so it cannot happen
+    out of nowhere between two people who barely speak.
+  -->
+  <InteractionDef>
+    <defName>SL_Comfort</defName>
+    <label>comfort</label>
+    <workerClass>Solace.InteractionWorker_Comfort</workerClass>
+    <symbol>Things/Mote/SpeechSymbols/KindWords</symbol>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry->[INITIATOR_nameDef] [comforted] [RECIPIENT_nameDef] [how].</li>
+
+        <li>comforted(p=3)->sat with</li>
+        <li>comforted->stayed with</li>
+        <li>comforted->talked quietly to</li>
+        <li>comforted->checked on</li>
+        <li>comforted->looked after</li>
+
+        <li>how->until they were steadier</li>
+        <li>how->without asking them to explain</li>
+        <li>how->and mostly just listened</li>
+        <li>how->for a long while, saying little</li>
+        <li>how->and made them eat something</li>
+        <li>how->until it had passed</li>
+      </rulesStrings>
+    </logRulesInitiator>
+  </InteractionDef>
+
+</Defs>

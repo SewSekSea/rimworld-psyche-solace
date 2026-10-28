@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Solace</name>
+  <author>T&amp;B Modding</author>
+  <packageId>solace.comfort</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+    <li>1.7</li>
+  </supportedVersions>
+  <description>Every mod that touches a colonist's head makes things worse. This one is the other direction.
+
+Colonists who are struggling can be sat with. It is not a cure and it is not free.
+
+Comfort
+- A colonist near their breaking point can be comforted by someone who thinks well of them. They feel better for it, and the two of them grow closer.
+- How much it helps depends on the comforter: their social skill, whether they are Kind, and how much they actually care about the person in front of them.
+- Children are comforted, and can comfort in turn.
+
+It costs the comforter
+- Sitting with someone in a bad way takes something out of you. The comforter carries a little of it themselves for a day or two.
+- Do it over and over and it tells on them. This is deliberate: a colony cannot run one person as its emotional dumping ground for free.
+
+Hollow comfort
+- A Sociopath will go through the motions perfectly well. It lifts the mood and heals nothing underneath.
+- A Psychopath does not bother.
+
+Steadied
+- Enough comfort over time leaves a colonist genuinely steadier: a lower breaking point for a while, marked in their health tab.
+- It has to be earned repeatedly. It fades if the colony stops looking after its people.
+
+Works with Grief: being comforted genuinely moves mourning along, not just the mood on top of it. Grief is not required.
+
+This mod only changes how colonists feel. It never changes how anyone aims, works or chooses a job.
+
+Requires Harmony. Safe to add to an existing save. RimWorld 1.6, no DLC needed.</description>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>Ludeon.RimWorld</li>
+    <li>sociopath.trait</li>
+    <li>machiavelli.trait</li>
+    <li>squad.morale</li>
+    <li>squad.ptsd</li>
+    <li>grief.mourning</li>
+    <li>guilt.conscience</li>
+  </loadAfter>
+</ModMetaData>
